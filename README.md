@@ -12,10 +12,14 @@ OphBiWSSD is a Mamba-based framework that reformulates surgical temporal action 
 
 OphBiWSSD supports two granularities of annotation from [OphNet](https://github.com/minghu0830/OphNet-benchmark):
 
+<div align="center">
+
 | Task | Classes | Config prefix |
 |:-:|:-:|:-:|
 | Operation detection | 107 | `medical_*_operation` |
 | Phase recognition | 52 | `medical_*_phase` |
+
+</div>
 
 Four pre-extracted feature types are supported as input: **CSN**, **SlowFast**, **SwinViViT**, and **VideoMAE**.
 
@@ -27,6 +31,8 @@ The performance of OphBiWSSD consistently outperforms five top-tier TAL benchmar
 
 ### Temporal Phase Localization (52 classes)
 
+<div align="center">
+
 |         Model         |     0.3      |     0.4      |     0.5      |     0.6      |     0.7      |     Avg.     |
 | :-------------------: | :----------: | :----------: | :----------: | :----------: | :----------: | :----------: |
 |     ActionFormer      |    46.49     |    43.61     |    38.62     |    33.33     |    26.04     |    37.62     |
@@ -37,7 +43,11 @@ The performance of OphBiWSSD consistently outperforms five top-tier TAL benchmar
 | **OphBiWSSD (Ours)**  | <ins>52.98</ins> | <ins>50.19</ins> | <ins>45.76</ins> | <ins>39.97</ins> | <ins>33.18</ins> | <ins>44.42</ins> |
 | **OphBiWSSD† (Ours)** |  **54.76**   |  **51.55**   |  **46.41**   |  **41.32**   |  **34.96**   |  **45.80**   |
 
+</div>
+
 ### Temporal Operation Localization (107 classes)
+
+<div align="center">
 
 |         Model         |     0.3      |     0.4      |     0.5      |     0.6      |     0.7      |     Avg.     |
 | :-------------------: | :----------: | :----------: | :----------: | :----------: | :----------: | :----------: |
@@ -48,6 +58,8 @@ The performance of OphBiWSSD consistently outperforms five top-tier TAL benchmar
 |      ActionMamba      |    49.18     |    46.34     |    42.05     |    34.71     |    26.87     |    39.83     |
 | **OphBiWSSD (Ours)**  | <ins>52.59</ins> | <ins>49.22</ins> | <ins>45.13</ins> | <ins>37.83</ins> | <ins>30.62</ins> | <ins>43.08</ins> |
 | **OphBiWSSD† (Ours)** |  **52.60**   |  **49.83**   |  **46.35**   |  **39.80**   |  **33.46**   |  **44.41**   |
+
+</div>
 
 ## Requirements
 

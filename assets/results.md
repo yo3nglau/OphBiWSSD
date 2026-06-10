@@ -6,6 +6,8 @@ The performance of OphBiWSSD consistently outperforms five top-tier TAL benchmar
 
 ### **CSN**
 
+<div align="center">
+
 | Model | 0.3 | 0.4 | 0.5 | 0.6 | 0.7 | Avg. |
 |:-:|:-:|:-:|:-:|:-:|:-:|:-:|
 | ActionFormer | 31.62 | 28.89 | 24.88 | 20.56 | 14.99 | 24.19 |
@@ -16,7 +18,11 @@ The performance of OphBiWSSD consistently outperforms five top-tier TAL benchmar
 | **OphBiWSSD (Ours)** | **38.21** | **35.25** | **31.62** | <ins>24.99</ins> | <ins>19.69</ins> | **29.95** |
 | **OphBiWSSD† (Ours)** | <ins>37.87</ins> | <ins>35.14</ins> | <ins>30.28</ins> | **25.39** | **20.61** | <ins>29.86</ins> |
 
+</div>
+
 ### **SlowFast**
+
+<div align="center">
 
 | Model | 0.3 | 0.4 | 0.5 | 0.6 | 0.7 | Avg. |
 |:-:|:-:|:-:|:-:|:-:|:-:|:-:|
@@ -28,7 +34,11 @@ The performance of OphBiWSSD consistently outperforms five top-tier TAL benchmar
 | **OphBiWSSD (Ours)** | <ins>40.99</ins> | <ins>36.86</ins> | <ins>32.19</ins> | <ins>26.67</ins> | <ins>21.42</ins> | <ins>31.63</ins> |
 | **OphBiWSSD† (Ours)** | **41.74** | **39.07** | **34.55** | **29.28** | **23.20** | **33.57** |
 
+</div>
+
 ### **SwinViViT**
+
+<div align="center">
 
 | Model | 0.3 | 0.4 | 0.5 | 0.6 | 0.7 | Avg. |
 |:-:|:-:|:-:|:-:|:-:|:-:|:-:|
@@ -40,7 +50,11 @@ The performance of OphBiWSSD consistently outperforms five top-tier TAL benchmar
 | **OphBiWSSD (Ours)** | <ins>41.13</ins> | <ins>38.16</ins> | <ins>33.19</ins> | <ins>29.31</ins> | <ins>22.25</ins> | <ins>32.81</ins> |
 | **OphBiWSSD† (Ours)** | **42.31** | **39.12** | **35.15** | **29.33** | **23.22** | **33.83** |
 
+</div>
+
 ### **VideoMAE**
+
+<div align="center">
 
 | Model | 0.3 | 0.4 | 0.5 | 0.6 | 0.7 | Avg. |
 |:-:|:-:|:-:|:-:|:-:|:-:|:-:|
@@ -52,9 +66,13 @@ The performance of OphBiWSSD consistently outperforms five top-tier TAL benchmar
 | **OphBiWSSD (Ours)** | <ins>52.98</ins> | <ins>50.19</ins> | <ins>45.76</ins> | <ins>39.97</ins> | <ins>33.18</ins> | <ins>44.42</ins> |
 | **OphBiWSSD† (Ours)** | **54.76** | **51.55** | **46.41** | **41.32** | **34.96** | **45.80** |
 
+</div>
+
 ## Temporal Operation Localization (107 classes)
 
 ### **CSN**
+
+<div align="center">
 
 | Model | 0.3 | 0.4 | 0.5 | 0.6 | 0.7 | Avg. |
 |:-:|:-:|:-:|:-:|:-:|:-:|:-:|
@@ -66,7 +84,11 @@ The performance of OphBiWSSD consistently outperforms five top-tier TAL benchmar
 | **OphBiWSSD (Ours)** | **39.08** | <ins>34.83</ins> | <ins>31.04</ins> | <ins>25.56</ins> | <ins>20.33</ins> | <ins>30.17</ins> |
 | **OphBiWSSD† (Ours)** | <ins>38.94</ins> | **35.86** | **31.75** | **26.81** | **21.56** | **30.98** |
 
+</div>
+
 ### **SlowFast**
+
+<div align="center">
 
 | Model | 0.3 | 0.4 | 0.5 | 0.6 | 0.7 | Avg. |
 |:-:|:-:|:-:|:-:|:-:|:-:|:-:|
@@ -78,7 +100,11 @@ The performance of OphBiWSSD consistently outperforms five top-tier TAL benchmar
 | **OphBiWSSD (Ours)** | <ins>41.66</ins> | **38.55** | <ins>34.01</ins> | <ins>28.60</ins> | <ins>21.85</ins> | <ins>32.93</ins> |
 | **OphBiWSSD† (Ours)** | **41.85** | <ins>38.49</ins> | **34.54** | **29.01** | **23.00** | **33.38** |
 
+</div>
+
 ### **SwinViViT**
+
+<div align="center">
 
 | Model | 0.3 | 0.4 | 0.5 | 0.6 | 0.7 | Avg. |
 |:-:|:-:|:-:|:-:|:-:|:-:|:-:|
@@ -90,7 +116,11 @@ The performance of OphBiWSSD consistently outperforms five top-tier TAL benchmar
 | **OphBiWSSD (Ours)** | **41.59** | **38.69** | **33.71** | **27.76** | **22.42** | **32.83** |
 | **OphBiWSSD† (Ours)** | <ins>39.05</ins> | <ins>36.55</ins> | <ins>31.95</ins> | <ins>27.26</ins> | <ins>21.23</ins> | <ins>31.21</ins> |
 
+</div>
+
 ### **VideoMAE**
+
+<div align="center">
 
 | Model | 0.3 | 0.4 | 0.5 | 0.6 | 0.7 | Avg. |
 |:-:|:-:|:-:|:-:|:-:|:-:|:-:|
@@ -101,3 +131,5 @@ The performance of OphBiWSSD consistently outperforms five top-tier TAL benchmar
 | ActionMamba | 49.18 | 46.34 | 42.05 | 34.71 | 26.87 | 39.83 |
 | **OphBiWSSD (Ours)** | <ins>52.59</ins> | <ins>49.22</ins> | <ins>45.13</ins> | <ins>37.83</ins> | <ins>30.62</ins> | <ins>43.08</ins> |
 | **OphBiWSSD† (Ours)** | **52.60** | **49.83** | **46.35** | **39.80** | **33.46** | **44.41** |
+
+</div>
