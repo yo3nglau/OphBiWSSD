@@ -23,7 +23,7 @@ Four pre-extracted feature types are supported as input: **CSN**, **SlowFast**, 
 
 See [assets/results.md](assets/results.md) for full benchmark tables across all features and tasks.
 
-The performance of OphBiWSSD consistently outperforms five top-tier TAL benchmarks under four video features ([CSN](https://arxiv.org/abs/1904.02811), [SlowFast](https://github.com/facebookresearch/SlowFast), [SwinViViT](https://github.com/SwinTransformer/Video-Swin-Transformer), [VideoMAE](https://github.com/OpenGVLab/VideoMAEv2)): [ActionFormer](https://github.com/happyharrycn/actionformer_release) (ECCV 2022), [TriDet](https://github.com/dingfengshi/tridet) (CVPR 2023), [DyFADet](https://github.com/yangle15/DyFADet-pytorch) (ECCV 2024), [CLTDR-GMG](https://github.com/LiQiang0307/CLTDR-GMG) (AAAI 2025), [ActionMamba](https://github.com/OpenGVLab/video-mamba-suite) (IJCV 2026). mAP (%) is reported at tIoU thresholds α ∈ {0.3, 0.4, 0.5, 0.6, 0.7}. † uses the same detection head and loss as CLTDR-GMG. **Bold**: best result. <u>Underline</u>: second best result.
+The performance of OphBiWSSD consistently outperforms five top-tier TAL benchmarks under four video features ([CSN](https://arxiv.org/abs/1904.02811), [SlowFast](https://github.com/facebookresearch/SlowFast), [SwinViViT](https://github.com/SwinTransformer/Video-Swin-Transformer), [VideoMAE](https://github.com/OpenGVLab/VideoMAEv2)): [ActionFormer](https://github.com/happyharrycn/actionformer_release) (ECCV 2022), [TriDet](https://github.com/dingfengshi/tridet) (CVPR 2023), [DyFADet](https://github.com/yangle15/DyFADet-pytorch) (ECCV 2024), [CLTDR-GMG](https://github.com/LiQiang0307/CLTDR-GMG) (AAAI 2025), [ActionMamba](https://github.com/OpenGVLab/video-mamba-suite) (IJCV 2026). mAP (%) is reported at tIoU thresholds α ∈ {0.3, 0.4, 0.5, 0.6, 0.7}. † uses the same detection head and loss as CLTDR-GMG. **Bold**: best result. <ins>Underline</ins>: second best result.
 
 ### Temporal Phase Localization (52 classes)
 
@@ -34,7 +34,7 @@ The performance of OphBiWSSD consistently outperforms five top-tier TAL benchmar
 |        DyFADet        |    47.82     |    45.30     |    39.74     |    34.24     |    28.58     |    39.14     |
 |       CLTDR-GMG       |    50.24     |    47.39     |    43.18     |    37.82     |    31.41     |    42.01     |
 |      ActionMamba      |    49.53     |    47.37     |    42.65     |    35.77     |    27.32     |    40.53     |
-| **OphBiWSSD (Ours)**  | <u>52.98</u> | <u>50.19</u> | <u>45.76</u> | <u>39.97</u> | <u>33.18</u> | <u>44.42</u> |
+| **OphBiWSSD (Ours)**  | <ins>52.98</ins> | <ins>50.19</ins> | <ins>45.76</ins> | <ins>39.97</ins> | <ins>33.18</ins> | <ins>44.42</ins> |
 | **OphBiWSSD† (Ours)** |  **54.76**   |  **51.55**   |  **46.41**   |  **41.32**   |  **34.96**   |  **45.80**   |
 
 ### Temporal Operation Localization (107 classes)
@@ -46,7 +46,7 @@ The performance of OphBiWSSD consistently outperforms five top-tier TAL benchmar
 |        DyFADet        |    46.20     |    43.98     |    40.12     |    33.86     |    27.48     |    38.33     |
 |       CLTDR-GMG       |    48.95     |    45.51     |    41.19     |    36.67     |    29.68     |    40.40     |
 |      ActionMamba      |    49.18     |    46.34     |    42.05     |    34.71     |    26.87     |    39.83     |
-| **OphBiWSSD (Ours)**  | <u>52.59</u> | <u>49.22</u> | <u>45.13</u> | <u>37.83</u> | <u>30.62</u> | <u>43.08</u> |
+| **OphBiWSSD (Ours)**  | <ins>52.59</ins> | <ins>49.22</ins> | <ins>45.13</ins> | <ins>37.83</ins> | <ins>30.62</ins> | <ins>43.08</ins> |
 | **OphBiWSSD† (Ours)** |  **52.60**   |  **49.83**   |  **46.35**   |  **39.80**   |  **33.46**   |  **44.41**   |
 
 ## Requirements
