@@ -1,0 +1,42 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# C extensions / compiled binaries
+*.so
+*.pyd
+
+# Build & distribution
+build/
+dist/
+*.egg-info/
+*.egg
+
+# Jupyter
+.ipynb_checkpoints/
+
+# PyTorch checkpoints & logs
+*.pth
+*.ckpt
+runs/
+logs/
+wandb/
+
+# Data (large files should not be committed)
+data/
+*.h5
+*.hdf5
+*.pkl
+*.npy
+*.npz
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*~
+
+# OS
+.DS_Store
+Thumbs.db
