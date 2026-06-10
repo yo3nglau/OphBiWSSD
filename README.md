@@ -6,7 +6,7 @@ Official implementation of **OphBiWSSD**, a *state-of-the-art* framework for oph
 
 OphBiWSSD is a Mamba-based framework that reformulates surgical temporal action localization leveraging **Bidirectional Weight-tied State Space Duality**. The proposed model adeptly captures anti-causal surgical dependencies without quadratic memory overhead and enforces direction-invariant feature learning across both forward and backward scanning paths.
 
-![overview](assets/overview.svg)
+![Overview](assets/Overview.png)
 
 ## Granularities
 
