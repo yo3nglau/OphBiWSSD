@@ -14,10 +14,10 @@ OphBiWSSD supports two granularities of annotation from [OphNet](https://github.
 
 <div align="center">
 
-| Task | Classes | Config prefix |
-|:-:|:-:|:-:|
-| Operation detection | 107 | `medical_*_operation` |
-| Phase recognition | 52 | `medical_*_phase` |
+| Task | Classes | Config Prefix | Model Weights |
+|:-:|:-:|:-:|:-:|
+| Operation Localization | 107 | `medical_*_operation` | [🤗](https://huggingface.co/yo3nglau/OphBiWSSD/tree/main/checkpoints) with operation |
+| Phase Localization | 52 | `medical_*_phase` | [🤗](https://huggingface.co/yo3nglau/OphBiWSSD/tree/main/checkpoints) with phase |
 
 </div>
 
