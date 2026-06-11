@@ -1,6 +1,6 @@
 # OphBiWSSD
 
-Official implementation of **OphBiWSSD**, a *state-of-the-art* framework for ophthalmic surgical video understanding on the [OphNet](https://github.com/minghu0830/OphNet-benchmark) benchmark.
+Official implementation of **OphBiWSSD: Scaling Temporal Action Localization in Ophthalmic Surgeries with Bidirectional Weight-tied State Space Duality**, a *state-of-the-art* framework for ophthalmic surgical video understanding on the [OphNet](https://github.com/minghu0830/OphNet-benchmark) benchmark.
 
 ## Overview
 
