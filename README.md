@@ -118,6 +118,8 @@ OphBiWSSD/
 │   ├── datasets/         # Dataset loaders (OphNet2024 + public benchmarks)
 │   ├── modeling/         # Backbone, neck, head, loss
 │   └── utils/            # Training utilities, metrics, NMS
+├── libs_dagger/
+│   └── modeling/         # Extended dagger modeling (move to libs/ to use)
 ├── mamba_utils/
 │   ├── mamba/            # Mamba source with BiWSSD module
 │   └── causal-conv1d/    # Causal conv1d CUDA kernel
